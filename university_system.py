@@ -1,6 +1,10 @@
 from abc import ABC, abstractmethod
 import tkinter as tk
 from tkinter import ttk, messagebox
+from models.person import Person
+from models.student import Student
+from models.doctor import Doctor
+from models.course import Course
 
 # ==================== Color Palette (Professional Dark Theme) ====================
 COLOR_BG          = "#12141c"   # main background
